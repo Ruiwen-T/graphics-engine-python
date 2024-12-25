@@ -1,0 +1,13 @@
+frames 100
+basename simple_100
+constants brass 0.33 0.78 0.99 0.22 0.57 0.94 0.03 0.11 0.81
+push
+move 250 250 0
+scale 2 2 2 bigenator
+rotate y 360 spinny
+rotate z 350 spinny
+torus brass 0 0 0 75 125
+
+vary spinny 0 99 0 1
+vary bigenator 0 49 0 1
+vary bigenator 50 99 1 0
